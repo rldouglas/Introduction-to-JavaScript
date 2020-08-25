@@ -44,7 +44,8 @@ function multiply(a,b)
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
+console.log(7 * 42);
+return 294;
 
 
 
