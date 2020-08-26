@@ -25,7 +25,7 @@ if(numTwo < numOne) {
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
 
-console.log(parseInt('23497124")
+console.log(parseInt('23497124"))
 
 
 
@@ -33,7 +33,7 @@ console.log(parseInt('23497124")
 
 function multiply(a,b)
 {  console.log(a*b)
-    return a*b (use this normally)
+    
     }
 
     multiply(5,2)
@@ -44,11 +44,13 @@ function multiply(a,b)
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-console.log(7 * 42);
-return 294;
 
 
+function dogYears(age){
+    return age * 7
+}
 
+console.log(dogYears(42))
 
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
